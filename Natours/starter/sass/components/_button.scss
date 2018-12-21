@@ -29,6 +29,14 @@
       background-color: $color-white;
     }
   }
+  &--green {
+    margin-top: 5rem;
+    background-color: $color-primary-dark;
+    color: $color-white;
+    &::after {
+      background-color: $color-white;
+    }
+  }
   &::after {
     content: "";
     display: inline-block;
